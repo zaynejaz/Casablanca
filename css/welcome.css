@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:200,400|Roboto+Condensed:300,400|Roboto:100,300,400,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  height: 100vh;
+  font-family: "Roboto Condensed", sans-serif !important;
+  font-family: "Roboto", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-size: 15px !important;
+  font-weight: normal !important;
+  line-height: 1.5rem !important;
+  background: #151515 !important;
+}
+
+/* HEADER IMG START*/
+header .welcome-bg {
+  z-index: -1;
+  padding: 50vh 0;
+  background: url(/img/img2.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+/* HEADER IMG ENDS*/
+
+/* MAIN START*/
+main {
+  padding-top: 4rem;
+  box-shadow: 5px 10px 25px rgb(43, 43, 43);
+  position: relative;
+  z-index: 1;
+}
+
+.section-heading {
+  height: 60vh;
+  font-family: "Roboto", "Oswald", sans-serif !important;
+  color: #adadad;
+  letter-spacing: 1.5px;
+  font-weight: lighter !important;
+  margin: 0;
+  padding: 1rem 0;
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
+}
+.section-heading h1 {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.section-heading p {
+  font-size: 0.8rem;
+
+  line-height: 2rem;
+  text-align: justify;
+}
+
+.about .btn {
+  font-family: "Roboto" "Oswald", sans-serif !important;
+  width: 210px;
+  color: #adadad !important;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 1.5px;
+  font-weight: lighter;
+  border: 1px solid #adadad;
+  border-radius: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.about .btn:hover {
+  color: #000000 !important;
+  font-weight: normal;
+  background: #adadad;
+  border: 1px solid #ffffff00;
+  transition: all 0.5s ease-in-out;
+}
+
+.section-heading .location,
+.section-heading .call-phone {
+  color: inherit !important;
+  text-decoration: none !important;
+  transition: all 0.5s ease-in-out;
+}
+
+.section-heading .location:hover,
+.section-heading .call-phone:hover {
+  color: #ffffff !important;
+  transition: all 0.5s ease-in-out;
+}
+
+/* MAIN ENDS*/
+
+/* MAP START */
+.map {
+  filter: grayscale(100%);
+  opacity: 0.7;
+  padding: 0;
+  margin: 0;
+}
+/* MAP ENDS */

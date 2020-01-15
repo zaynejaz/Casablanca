@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:200,400|Roboto+Condensed:300,400|Roboto:100,300,400,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  height: 100vh;
+  font-family: "Roboto Condensed", sans-serif !important;
+  font-family: "Roboto", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-size: 15px !important;
+  font-weight: normal !important;
+  line-height: 1.5rem !important;
+  background: #151515 !important;
+}
+
+/* HEADER IMG START*/
+header .private-dining {
+  z-index: -1;
+  padding: 50vh 0;
+  background: url(/img/img-privatedining.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+/* HEADER IMG ENDS*/
+
+/* MAIN START*/
+
+main {
+  position: relative;
+  padding-top: 4rem;
+  z-index: 1;
+}
+
+.pd-container {
+  height: auto;
+  font-family: "Roboto", "Oswald", sans-serif !important;
+  color: #adadad;
+  letter-spacing: 1.5px;
+  font-weight: lighter !important;
+  margin: 0 0 5rem 0;
+  padding: 1rem 0;
+}
+.pd-container h1 {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.pd-container p {
+  font-size: 0.8rem;
+  width: 50%;
+  margin: auto;
+  line-height: 2rem;
+  text-align: justify;
+  padding-bottom: 1.5rem;
+}
+
+.pvtdn-container {
+  height: auto;
+  font-family: "Roboto", "Oswald", sans-serif !important;
+  color: #adadad;
+  letter-spacing: 1.5px;
+  font-weight: lighter !important;
+  margin: 0 0 1rem 0;
+  padding: 0 0 1rem 0;
+}
+.pvtdn-container h2 {
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+  font-weight: normal !important;
+  letter-spacing: 1.5px;
+}
+
+.pvtdn-container p {
+  font-size: 0.8rem;
+  width: 100%;
+  margin: auto;
+  line-height: 2rem;
+  text-align: justify;
+  padding-bottom: 1.5rem;
+}
+
+.info .btn {
+  font-family: "Roboto" "Oswald", sans-serif !important;
+  width: 240px;
+  color: #adadad !important;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 1.5px;
+  font-weight: lighter;
+  border: 1px solid #adadad;
+  border-radius: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.info .btn:hover {
+  color: #000000 !important;
+  font-weight: normal;
+  background: #adadad;
+  border: 1px solid #ffffff00;
+  transition: all 0.5s ease-in-out;
+}
+
+.casa-container {
+  margin-bottom: 2rem;
+}
+/* MAIN END */
+
+/* ALL SECTIONS START*/
+section {
+  height: auto;
+  width: 90%;
+  margin: 0 auto 0 auto;
+}
+/* ALL SECTIONS ENDS*/
+
+/* SECTION WEST START*/
+section .west-dining {
+  z-index: -1;
+  padding: 50vh 0;
+  background: url(/img/img-privatedining2.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+/* SECTION WEST ENDS*/
+
+/* SECTION N&S START*/
+section .north-south {
+  z-index: -1;
+  padding: 50vh 0;
+  background: url(/img/img-privatedining3.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+/* SECTION N&S ENDS*/
+
+/* SECTION EXCLUSIVE START*/
+section .exclusive {
+  z-index: -1;
+  padding: 50vh 0;
+  background: url(/img/img-privatedining4.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+/* SECTION EXCLUSIVE ENDS*/
+
+/* SECTION CASA EVENTS START*/
+section .casa-events {
+  z-index: -1;
+  height: 100vh;
+  padding: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(/img/img-privatedining5.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+
+section .overlay {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.overlay h1 {
+  color: rgba(255, 255, 255, 0.76);
+  text-transform: uppercase;
+  font-size: 6rem !important;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+}
+/* SECTION CASA EVENTS ENDS*/
+
+#info a.res-btn {
+  scroll-behavior: smooth;
+}

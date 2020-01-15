@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+	<title>Casablanca Restaurant</title>
+
+	<link rel="shortcut icon" type="image/png" href="/img/favicon-wht.png" />
+	<link rel="stylesheet" href="/css/form.css" />
+
+	<!-- GOOGLE FONTS -->
+	<link
+		href="https://fonts.googleapis.com/css?family=Oswald:200,400|Roboto+Condensed:300,400|Roboto:100,300,400,500&display=swap"
+		rel="stylesheet" />
+	<!-- FONTAWESOME -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet">
+	<!-- BOOTSTRAP -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<!-- GSAP -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+</head>
+
+<body>
+	<!-- NAVBAR START-->
+	<!-- NAVBAR END -->
+
+	<!-- HEADER START -->
+	<div class='form-overlay'></div>
+
+	<div id='form-container'>
+		<button class="res-btn btn mt-2 mb-5 mb-md-0">inquire now</button>
+		<span class='icon fas fa-times' id='form-close'></span>
+		<div id='form-content'>
+			<div id='form-head'>
+				<h1 class='pre'>inquire</h1>
+				<h1 class='post'>Thank You</h1>
+				<p class='post'>We will be in touch shortly</p>
+			</div>
+			<form>
+				<input class='input name' name='user_name' placeholder='First Name' type='text' required>
+				<input class='input name' name='user_name' placeholder='Last Name' type='text' required>
+				<input class='input email' name='user_email' placeholder='Email Address' type='text' required>
+				<input class='input phone' name='user_phone' placeholder='Phone Number' type='tel' required>
+				<input class='input company' name='user_company' placeholder='Company' type='text'>
+				<input class='input event' name='user_event' placeholder='Nature of Event (Party/Dinner/Business etc)'
+					type='text' required>
+				<input class='input date' name='user_date' placeholder='Event Date' type='date' required>
+				<input class='input start' name='user_start' placeholder='Start Time' type='time' required>
+				<input class='input end' name='user_end' placeholder='End Time' type='time' required>
+				<input class='input number' name='user_numbers' placeholder='Number of Guests' type='number' required>
+				<textarea class='input message' placeholder="Any additional information you'd like to add"></textarea>
+
+
+				<select class='input select' name='subject'>
+					<option selected disabled=''>How did you hear about us?</option>
+					<option>Instagram</option>
+					<option>Facebook</option>
+					<option>Trip Advisor</option>
+					<option>Search Engine</option>
+					<option>Email</option>
+					<option>Word of Mouth</option>
+					<option>Other</option>
+
+				</select>
+				<input class='input submit' type='submit' value='Submit'>
+			</form>
+		</div>
+	</div>
+	<!-- HEADER END -->
+
+	<script src="/js/form.js"></script>
+</body>
+
+</html>

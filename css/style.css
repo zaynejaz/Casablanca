@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:200,400|Roboto+Condensed:300,400|Roboto:100,300,400,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  height: 100vh;
+  font-family: "Roboto Condensed", sans-serif !important;
+  font-family: "Roboto", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-size: 15px !important;
+  font-weight: normal !important;
+  line-height: 1.5rem !important;
+  background: #000000 !important;
+}
+
+/* NAVBAR START */
+.navbar-brand img {
+  width: 300px;
+  margin-bottom: 1rem;
+}
+
+.navbar {
+  padding-top: 0rem;
+  background: none;
+  margin-top: 25vh;
+  margin-left: 0vh;
+}
+
+.nav-link {
+  font-family: "roboto", sans-serif !important;
+  font-weight: 100 !important;
+  color: #ffffff !important;
+  font-size: 0.8rem;
+  text-align: center;
+
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 1s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #bbbbbb !important;
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar-toggler {
+  border: none !important;
+  outline: none !important;
+}
+
+.banner {
+  position: absolute;
+  width: 100%;
+  z-index: 99;
+}
+/* NAVBAR ENDS */
+
+/* HEADER STARTS */
+.header {
+  z-index: -1;
+  height: 100vh;
+  width: auto;
+  padding: 0;
+  margin: 0;
+  background: url(/img/img1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.6;
+}
+/* HEADER ENDS */

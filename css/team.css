@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:200,400|Roboto+Condensed:300,400|Roboto:100,300,400,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  height: 100vh;
+  font-family: "Roboto Condensed", sans-serif !important;
+  font-family: "Roboto", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-size: 15px !important;
+  font-weight: normal !important;
+  line-height: 1.5rem !important;
+  background: #151515 !important;
+}
+
+/* HEADER IMG START*/
+header .team {
+  z-index: -1;
+  padding: 50vh 0;
+  background: url(/img/img-team.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+/* HEADER IMG ENDS*/
+
+/* MAIN START*/
+
+main {
+  position: relative;
+  padding-top: 4rem;
+  z-index: 1;
+}
+
+.res-container {
+  width: 100%;
+  height: auto;
+  font-family: "Roboto", "Oswald", sans-serif !important;
+  color: #adadad;
+  letter-spacing: 1.5px;
+  font-weight: lighter !important;
+  margin: 0 0 1rem 0;
+  padding: 1rem 0;
+}
+.res-container h1 {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.team-area {
+  margin: 0 0 3rem 0;
+}
+
+.single-team {
+  background-color: inherit;
+  overflow: hidden;
+  transition: all 1s ease-in-out;
+  margin: 0 0 2rem 0;
+}
+.single-team:hover .social {
+  background: none;
+}
+
+.img-area {
+  position: relative;
+}
+
+.img-area img {
+  width: 100%;
+  filter: grayscale(100%);
+  transition: all 1s ease-in-out;
+}
+.single-team:hover .img-area img {
+  filter: grayscale(0%);
+  transition: all 1s ease-in-out;
+}
+
+.img-area:hover img {
+  filter: grayscale(0);
+  transition: all 1s ease 0s;
+}
+@media (max-width: 768px) {
+  .img-areaimg {
+    display: inline-block;
+  }
+}
+
+.img-text {
+  padding: 1rem;
+  color: #adadad;
+  text-align: center;
+  font-family: "Roboto", sans-serif !important;
+  transition: all 1s ease-in-out;
+}
+.img-text:hover {
+  color: #ffffff;
+  transition: all 1s ease-in-out;
+}
+.img-area:hover ~ .img-text {
+  color: #ffffff;
+  transition: all 1s ease-in-out;
+}
+
+.img-text h4 {
+  font-weight: normal !important;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0 0 0.3rem 0;
+}
+
+.img-text h5 {
+  font-weight: lighter !important;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.team-pics {
+  margin: 0 auto;
+}

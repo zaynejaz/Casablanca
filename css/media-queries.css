@@ -1,0 +1,125 @@
+/* GENERAL BREAKPOINTS */
+@media (max-width: 991px) {
+  /* WELCOME */
+  main.mainAbout {
+    height: auto;
+    padding-bottom: 8rem;
+  }
+  .about .section-heading p.aboutInfo {
+    width: 100%;
+  }
+
+  /* MENU/WINE */
+  section p {
+    width: 60%;
+  }
+  /* TEAM */
+  .img-area img {
+    filter: grayscale(0);
+  }
+  /* RESERVATIONS */
+  .res-container p {
+    width: 80%;
+  }
+
+  /* NAVBAR LOGO */
+  .navbar {
+  }
+  .d-flex {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .navbar-brand {
+    padding-left: 2.5rem;
+    float: none;
+  }
+
+  /* NAVBAR DROP-MENU */
+  a.nav-link {
+    background: rgb(21, 21, 21);
+    background: radial-gradient(
+      circle,
+      rgba(21, 21, 21, 1) 0%,
+      rgba(34, 162, 225, 0) 75%
+    );
+  }
+}
+
+/* ============================================== */
+
+/* PHONE */
+@media (max-width: 599px) {
+  /* WELCOME */
+  .section-heading {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #about .aboutTime,
+  #about .aboutInfo {
+    text-align: center;
+  }
+  #about .aboutInfo {
+    margin-bottom: 4rem;
+  }
+}
+
+/* ============================================== */
+
+/* TABLET PORTRAIT ONLY*/
+@media (min-width: 600px) and (max-width: 899px) {
+  /* WELCOME */
+  #about .aboutTime,
+  #about .aboutInfo {
+    text-align: center;
+  }
+  #about .aboutInfo {
+    margin-bottom: 4rem;
+  }
+}
+
+/* ============================================== */
+
+/* TABLET PORTRAIT UP*/
+/* @media (min-width: 600px) {
+} */
+
+/* ============================================== */
+
+/* TABLET LANDSCAPE ONLY*/
+@media (min-width: 900px) and (max-width: 1199px) {
+  .img-text h4 {
+    font-size: 1rem;
+  }
+  .img-text h5 {
+    font-weight: lighter !important;
+    font-size: 0.8rem;
+  }
+}
+
+/* ============================================== */
+
+/* TABLET LANDSCAPE UP*/
+/* @media (min-width: 900px) {
+} */
+
+/* ============================================== */
+
+/* DESKTOP ONLY*/
+/* @media (min-width: 1200px) and (max-width: 1799px) {
+} */
+
+/* ============================================== */
+
+/* DESKTOP UP*/
+/* @media (min-width: 1200px) {
+} */
+
+/* ============================================== */
+
+/* BIG DESKTOP UP*/
+/* @media (min-width: 1800px) {
+} */
+
+/* ============================================== */

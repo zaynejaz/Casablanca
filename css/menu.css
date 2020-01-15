@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:200,400|Roboto+Condensed:300,400|Roboto:100,300,400,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  height: 100vh;
+  font-family: "Roboto Condensed", sans-serif !important;
+  font-family: "Roboto", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-size: 15px !important;
+  font-weight: normal !important;
+  line-height: 1.5rem !important;
+  background: #151515 !important;
+}
+
+/* HEADER IMG START*/
+
+.header-menu {
+  width: 100%;
+  height: 50%;
+}
+.description {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.list-group {
+  width: auto;
+}
+
+.list-group li {
+  background: none !important;
+  border: none;
+}
+
+.list-group li a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.description h1 {
+  color: #8d8d8d;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+  z-index: inherit;
+}
+
+.description .current h1 {
+  color: white;
+  cursor: default;
+  border: none;
+}
+
+.description h1:hover {
+  color: white !important;
+  transition: all 0.5s ease-in-out;
+}
+
+section p {
+  position: relative;
+  margin: 0 auto 3rem auto;
+  color: #adadad;
+  font-size: 0.9rem;
+  font-weight: lighter;
+  width: 40%;
+  height: auto;
+  line-height: 2.5rem;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+/* HEADER IMG ENDS*/
+
+/* WINE LIST */
+section p a {
+  text-decoration: none !important;
+  color: white;
+  border-bottom: 1px solid #8d8d8d00;
+  transition: all 0.3s ease-in-out;
+  text-transform: capitalize;
+}
+
+section p a:hover {
+  color: white;
+  border-bottom: 1px solid #8d8d8d;
+  transition: all 0.3s ease-in-out;
+}
