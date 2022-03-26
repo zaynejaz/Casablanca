@@ -25,7 +25,7 @@ body {
 header .bar {
   z-index: -1;
   padding: 50vh 0;
-  background: url(/img/img-bar.jpg) center;
+  background: url(../img/img-bar.jpg) center;
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 1;
@@ -90,7 +90,7 @@ main {
 section .dining-hall {
   z-index: -1;
   padding: 50vh 0;
-  background: url(/img/img-dining.jpg) center;
+  background: url(../img/img-dining.jpg) center;
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 1;
@@ -101,7 +101,7 @@ section .dining-hall {
 section .salon {
   z-index: -1;
   padding: 50vh 0;
-  background: url(/img/img-salon.jpg) center;
+  background: url(../img/img-salon.jpg) center;
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 1;

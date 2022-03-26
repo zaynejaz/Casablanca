@@ -25,7 +25,7 @@ body {
 header .team {
   z-index: -1;
   padding: 50vh 0;
-  background: url(/img/img-team.jpg) center;
+  background: url(../img/img-team.jpg) center;
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 1;
